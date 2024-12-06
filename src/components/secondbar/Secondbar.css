@@ -1,0 +1,8 @@
+.nav-link{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .nav-link{
+        margin-left: 50px !important;
+    }
+}

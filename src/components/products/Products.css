@@ -1,0 +1,104 @@
+
+.container{
+    overflow: "hidden";
+    overflow-x: hidden;
+    overflow-Y: "hidden";
+}
+
+.card{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+
+}
+.card-img {
+    transition: transform 1.5s; 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card:hover .one {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame246.jpg?v=1706772223&width=600");
+    cursor: pointer;
+}
+.card:hover .two {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame271.jpg?v=1706772998&width=823");
+    cursor: pointer;
+}
+.card:hover .three {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame238.jpg?v=1706772088&width=1346");
+    cursor: pointer;
+}
+.card:hover .four {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame242.jpg?v=1706772168&width=1646");
+    cursor: pointer;
+}
+.card:hover .five {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame258.jpg?v=1706772810&width=1646");
+    cursor: pointer;
+}
+.card:hover .six {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame247_db48383b-129d-4387-902b-16f69eebc191.jpg?v=1706772563&width=1346");
+    cursor: pointer;
+}
+.card:hover .seven {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame257.jpg?v=1706772675&width=1346");
+    cursor: pointer;
+}
+.card:hover .eight {
+    transform: scale(1.1) ; 
+    content: url("https://demo-ecomus-global2.myshopify.com/cdn/shop/files/Frame255.jpg?v=1706772623&width=1346");
+    cursor: pointer;
+}
+.arrow{
+    position:absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 200px;
+    left: 250px;
+    font-size: 24px;
+}
+.card-text:hover{
+   cursor: pointer;
+   color: red;
+}
+@media only screen and (max-width : 600px){
+.row{
+    flex-wrap: wrap !important;
+}
+.arrow{
+    display: none;
+}
+}
+@media only screen and (max-width : 768px){
+    .row{
+        flex-wrap: wrap !important;
+    }
+    .row{
+      justify-content: center;
+    }
+    .arrow{
+        display: none !important;
+    }
+}
+
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+  
+

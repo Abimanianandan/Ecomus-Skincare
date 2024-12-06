@@ -1,0 +1,27 @@
+ .card img {
+    transition: transform 2s ; 
+    width: 100%; 
+    height: 100%;
+  }
+  .item{
+    width: 250px;
+  }
+  
+  .fasion:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+  } 
+  .container-fluid{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  } 
+  @media only screen and (max-width: 600px){
+    .col-md-2{
+        display: flex;
+        justify-content: center;
+    }
+    .discription{
+     margin-left: 30px !important;
+    }
+  }

@@ -1,0 +1,45 @@
+  .cold:hover{
+    cursor: pointer;
+    color: red !important;
+  }
+  .review{
+    height: 700px !important;
+  }
+  
+  .fa-star {
+    font-size: 1.2rem;
+  }
+  
+  .main-img {
+    max-width: 100%;
+    max-height: 500px !important;
+    object-fit: cover;
+  }
+  .main-img:hover{
+    cursor: pointer;
+  }
+  .main-img:hover + .overlay-img {
+    display: none !important;
+  }
+  
+  .overlay-img {
+    position: absolute;
+    bottom: -10%;
+    right: 55%;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .fa-code-compare:hover{
+    color: red;
+  }
+ 
+  
+
+  
+ 
+
+  
+  
