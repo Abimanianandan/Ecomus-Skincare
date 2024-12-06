@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../secondbar/secondbar.css"
+import "../secondbar/Secondbar.css"
 import Collection from '../collection/collection'
 
 const Secondbar = () => {
