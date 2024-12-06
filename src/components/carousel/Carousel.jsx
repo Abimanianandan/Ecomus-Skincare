@@ -51,7 +51,7 @@
 
 // export default Carousel
 import React from "react";
-import "../carousel/carousel.css";
+import "../carousel/Carousel.css";
 
 const slides = [
   {
