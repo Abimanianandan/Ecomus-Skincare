@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../secondbar/Secondbar.css"
-import Collection from '../collection/collection'
+import Collection from '../collection/Collection'
 
 const Secondbar = () => {
     const[product,setProduct] = useState(0)
