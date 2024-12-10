@@ -30,7 +30,7 @@ const ProductBenifit = () => {
         />
         <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center text-center">
           <button
-            className="btn mt-4 p-2 text-dark"
+            className="btn mt-4 p-2 text-dark flash-button"
             style={{ backgroundColor: "white", width: "150px" }}
             onClick={handleChange}
           >
@@ -47,7 +47,7 @@ const ProductBenifit = () => {
         />
         <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center text-center">
           <button
-            className="btn mt-4 p-2 text-dark"
+            className="btn mt-4 p-2 text-dark flash-button"
             style={{ backgroundColor: "white", width: "150px" }}
             onClick={handleChange}
           >

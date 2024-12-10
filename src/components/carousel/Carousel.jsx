@@ -52,6 +52,7 @@
 // export default Carousel
 import React from "react";
 import "../carousel/Carousel.css";
+import Button from "../button/Button";
 
 const slides = [
   {
@@ -104,13 +105,7 @@ const Carousel = () => {
             <div className="carousel-caption custom-caption">
               <h2 className="col-md-12 fw-normal">{slide.title}</h2>
               <p className="mt-4">{slide.description}</p>
-              <button
-                className="btn mt-4 p-2 text-dark flash-button"
-                style={{ backgroundColor: "white", width: "200px" }}
-              >
-                Shop collection
-                <i className="fa-solid fa-chevron-right"></i>
-              </button>
+               <Button />
             </div>
           </div>
         ))}

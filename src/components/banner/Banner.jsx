@@ -1,5 +1,6 @@
 import React from 'react'
 import '../banner/Banner.css'
+import Button from '../button/Button'
 
 const Banner = () => {
   return (
@@ -18,7 +19,7 @@ const Banner = () => {
   <p className="text-white mt-4">
     Shop our luxury silk button-up blouses made with ultra-soft, washable silk.
   </p>
-  <button className="btn mt-4 p-2 text-dark flash-button" style={{backgroundColor:"white",width:"200px"}}>Shop Collection</button>
+  <Button />
 </div>
 </div>
   )

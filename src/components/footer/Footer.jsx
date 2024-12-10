@@ -6,16 +6,17 @@ const Footer = () => {
     <div className="container-fluid mt-5">
         <hr />
     <footer className="p-4">
-      <div className="row d-flex flex-column flex-md-row">
+      <div className="row d-flex flex-column flex-md-row ">
         <div className="col mb-4">
           <a href="#">
             <img
               src="https://themesflat.co/html/ecomus/images/logo/logo.svg"
               alt="Brand Logo"
               width="140"
-              className="mb-4"
+              className="mb-4 brand"
             />
           </a>
+          <div className="d-flex justify-content-center justify-content-md-start">
           <p className="fw-light">
             Address: 1234 Fashion Street, Suite 567,
             <br /> New York, NY 10001
@@ -23,6 +24,7 @@ const Footer = () => {
             Email: info@fashionshop.com
             <br /> Phone: (212) 555-1234
           </p>
+          </div>
           <div className="gap mt-3 d-flex justify-content-center justify-content-md-start icon">
             <a href="#" className="text-decoration-none me-3">
               <i className="fa-brands fa-facebook fa-2x" style={{color:"black"}}></i>

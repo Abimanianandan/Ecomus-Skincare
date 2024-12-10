@@ -1,5 +1,6 @@
 import React from 'react'
 import "../collection/Collection.css"
+import Button from '../button/Button'
 const Collection = ({product}) => {
   return (
 
@@ -23,12 +24,7 @@ const Collection = ({product}) => {
             Use certified organic ingredients to assure consumers that the product is free
             from synthetic pesticides and fertilizers.
           </p>
-          <button
-            className="btn mt-4 p-2 text-dark flash-button"
-            style={{ backgroundColor: "white", width: "200px" }}
-          >
-            Shop Collection
-          </button>
+         <Button />
         </div>
       </div>
     </div>
@@ -52,12 +48,7 @@ const Collection = ({product}) => {
           <p className="text-white mt-4">       
             Get full-size, verified cruelty-free and vegan products in every box! We work directly with brands to bring you huge discounts.
           </p>
-          <button
-            className="btn mt-4 p-2 text-dark flash-button"
-            style={{ backgroundColor: "white", width: "200px" }}
-          >
-            Shop Collection
-          </button>
+          <Button />
         </div>
       </div>
     </div>
@@ -81,12 +72,7 @@ const Collection = ({product}) => {
           <p className="text-white mt-4">
             With steadily increasing demand, the authors suggest that a major opportunity exists for environmentally and socially sustainable expansion
           </p>
-          <button
-            className="btn mt-4 p-2 text-dark flash-button"
-            style={{ backgroundColor: "white", width: "200px" }}
-          >
-            Shop Collection
-          </button>
+          <Button />
         </div>
       </div>
     </div>
